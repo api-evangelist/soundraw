@@ -1,0 +1,73 @@
+aid: soundraw
+url: https://raw.githubusercontent.com/api-evangelist/soundraw/refs/heads/main/apis.yml
+name: SOUNDRAW
+kind: company
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - AI Music
+  - Generative
+  - Royalty-Free
+  - B2B
+  - Music Generation
+  - Customization
+  - Video
+  - Games
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+description: >-
+  SOUNDRAW is an AI music generation platform that produces royalty-free,
+  copyright-cleared music customized by genre, mood, theme, length, and
+  instrumentation. Beyond the soundraw.io consumer product, SOUNDRAW
+  offers a B2B API for embedding music generation into video platforms,
+  games, social tools, and ad tech, with Canva, Filmora, and Captions
+  Mirage cited as integration partners.
+apis:
+  - aid: soundraw:music-api
+    name: SOUNDRAW API
+    description: >-
+      B2B HTTP API for generating royalty-free AI music at scale, supporting
+      per-end-user music creation with style, mood, genre, length, and
+      instrument customization. Generated tracks are cleared for perpetual
+      commercial use. Documentation and base URL are issued to API
+      customers; access starts at the Starter tier ($29.99/mo, up to 100
+      songs) and scales to Pro and custom Enterprise plans.
+    humanURL: https://soundraw.io/api
+    baseURL: https://soundraw.io/api
+    tags:
+      - Music Generation
+      - Royalty-Free
+      - B2B
+      - Customization
+    properties:
+      - type: ProductPage
+        url: https://soundraw.io/api
+      - type: Pricing
+        url: https://soundraw.io/api
+      - type: Contact
+        url: https://soundraw.io/api
+        title: Contact sales for API documentation and credentials
+common:
+  - type: Website
+    url: https://soundraw.io/
+  - type: ProductPage
+    url: https://soundraw.io/api
+  - type: FreeTrial
+    url: https://soundraw.io/generate_music
+  - type: TermsOfService
+    url: https://soundraw.io/terms_of_use
+  - type: PrivacyPolicy
+    url: https://soundraw.io/privacy_policy
+  - type: Contact
+    url: https://soundraw.io/contact
+  - type: Integrations
+    data:
+      - name: Canva
+        description: SOUNDRAW music generation embedded within the Canva creative suite.
+      - name: Filmora
+        description: AI music generation inside the Wondershare Filmora video editor.
+      - name: Captions Mirage
+        description: AI music for Captions' Mirage AI video tooling.
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
