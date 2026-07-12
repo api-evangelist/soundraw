@@ -48,6 +48,8 @@ apis:
         url: https://soundraw.io/api
         title: Contact sales for API documentation and credentials
 common:
+  - type: DomainSecurity
+    url: security/soundraw-domain-security.yml
   - type: Website
     url: https://soundraw.io/
   - type: ProductPage
