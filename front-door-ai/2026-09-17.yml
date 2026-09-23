@@ -1,0 +1,26 @@
+# Front Door AI Index — soundraw — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: soundraw
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: soundraw.io
+  final_host: soundraw.io
+  ownership: own
+  owner: soundraw
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 30
+  host_score: 30
+  density: 20.39
+  words: 1471
+  tiers:
+    agentic: 2
+    core: 28
+    model: 0
+  ambiguous: 0
+  top_terms:
+    AI: 28
+    fine-tune: 2
