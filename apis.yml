@@ -36,7 +36,7 @@ tags:
   - Video
   - Games
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 description: >-
   SOUNDRAW is an AI music generation platform that produces royalty-free,
@@ -71,6 +71,8 @@ apis:
         url: https://soundraw.io/api
         title: Contact sales for API documentation and credentials
 common:
+  - url: https://soundraw.io/press
+    type: Blog
   - type: DomainSecurity
     url: security/soundraw-domain-security.yml
   - type: Website
